@@ -1,0 +1,1613 @@
+{
+    "version":  "1.0.0",
+    "servers":  [
+                    {
+                        "id":  "Gatocraft-1.20.1-1.20.1",
+                        "name":  "Gatocraft",
+                        "description":  "Servidor oficial de Gatocraft | Minecraft 1.20.1",
+                        "icon":  null,
+                        "version":  "1.0.0",
+                        "address":  "69.41.184.213:25566",
+                        "minecraftVersion":  "1.20.1",
+                        "mainServer":  true,
+                        "autoconnect":  true,
+                        "modules":  [
+                                        {
+                                            "id":  "net.minecraftforge:lowcodelanguage:1.20.1-47.4.28",
+                                            "name":  "Minecraft Forge (lowcodelanguage)",
+                                            "type":  "ForgeHosted",
+                                            "classpath":  true,
+                                            "artifact":  {
+                                                             "size":  7394,
+                                                             "MD5":  "47e6805885dfb295beba801e763c3435",
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.4.28/lowcodelanguage-1.20.1-47.4.28.jar"
+                                                         },
+                                            "subModules":  [
+                                                               {
+                                                                   "id":  "1.20.1-47.4.28",
+                                                                   "name":  "Minecraft Forge (version.json)",
+                                                                   "type":  "VersionManifest",
+                                                                   "artifact":  {
+                                                                                    "size":  16629,
+                                                                                    "MD5":  "384e730fa46ecdc3552876d65094cc2b",
+                                                                                    "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/repo/versions/1.20.1-forge-47.4.28/1.20.1-forge-47.4.28.json"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "net.minecraftforge:fmlcore:1.20.1-47.4.28",
+                                                                   "name":  "Minecraft Forge (fmlcore)",
+                                                                   "type":  "Library",
+                                                                   "classpath":  true,
+                                                                   "artifact":  {
+                                                                                    "size":  118908,
+                                                                                    "MD5":  "30df1efd5e51e01c88f71eb63caedbfb",
+                                                                                    "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.4.28/fmlcore-1.20.1-47.4.28.jar"
+                                                                                },
+                                                                   "subModules":  [
+
+                                                                                  ]
+                                                               },
+                                                               {
+                                                                   "id":  "net.minecraftforge:javafmllanguage:1.20.1-47.4.28",
+                                                                   "name":  "Minecraft Forge (javafmllanguage)",
+                                                                   "type":  "Library",
+                                                                   "classpath":  true,
+                                                                   "artifact":  {
+                                                                                    "size":  16850,
+                                                                                    "MD5":  "e60d0defc73d4c52edec80c13766ba88",
+                                                                                    "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.4.28/javafmllanguage-1.20.1-47.4.28.jar"
+                                                                                },
+                                                                   "subModules":  [
+
+                                                                                  ]
+                                                               },
+                                                               {
+                                                                   "id":  "net.minecraftforge:mclanguage:1.20.1-47.4.28",
+                                                                   "name":  "Minecraft Forge (mclanguage)",
+                                                                   "type":  "Library",
+                                                                   "classpath":  true,
+                                                                   "artifact":  {
+                                                                                    "size":  4994,
+                                                                                    "MD5":  "afa8e7c5828b003340a18bdbf1c2daf1",
+                                                                                    "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.4.28/mclanguage-1.20.1-47.4.28.jar"
+                                                                                },
+                                                                   "subModules":  [
+
+                                                                                  ]
+                                                               },
+                                                               {
+                                                                   "id":  "net.minecraftforge:forge:1.20.1-47.4.28:universal",
+                                                                   "name":  "Minecraft Forge (universal jar)",
+                                                                   "type":  "Library",
+                                                                   "classpath":  false,
+                                                                   "artifact":  {
+                                                                                    "size":  2517355,
+                                                                                    "MD5":  "27d8f613d87e7cf84dcaad1fdfdb94dc",
+                                                                                    "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/repo/lib/net/minecraftforge/forge/1.20.1-47.4.28/forge-1.20.1-47.4.28-universal.jar"
+                                                                                },
+                                                                   "subModules":  [
+
+                                                                                  ]
+                                                               },
+                                                               {
+                                                                   "id":  "net.minecraftforge:forge:1.20.1-47.4.28:client",
+                                                                   "name":  "Minecraft Forge (client jar)",
+                                                                   "type":  "Library",
+                                                                   "classpath":  false,
+                                                                   "artifact":  {
+                                                                                    "size":  4848997,
+                                                                                    "MD5":  "75f4c350e4a59847e1a410b21dc35508",
+                                                                                    "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/repo/lib/net/minecraftforge/forge/1.20.1-47.4.28/forge-1.20.1-47.4.28-client.jar"
+                                                                                },
+                                                                   "subModules":  [
+
+                                                                                  ]
+                                                               },
+                                                               {
+                                                                   "id":  "net.minecraft:client:1.20.1-20230612.114412:srg",
+                                                                   "name":  "Minecraft Forge (client srg)",
+                                                                   "type":  "Library",
+                                                                   "classpath":  false,
+                                                                   "artifact":  {
+                                                                                    "size":  18842082,
+                                                                                    "MD5":  "8bfacfba4f54cda741019756165c5ecf",
+                                                                                    "url":  "http://127.0.0.1:8080/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar"
+                                                                                },
+                                                                   "subModules":  [
+
+                                                                                  ]
+                                                               },
+                                                               {
+                                                                   "id":  "net.minecraft:client:1.20.1-20230612.114412:slim",
+                                                                   "name":  "Minecraft Forge (client slim)",
+                                                                   "type":  "Library",
+                                                                   "classpath":  false,
+                                                                   "artifact":  {
+                                                                                    "size":  12592249,
+                                                                                    "MD5":  "28edebec7b5a007bc9961ee9bab4d764",
+                                                                                    "url":  "http://127.0.0.1:8080/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-slim.jar"
+                                                                                },
+                                                                   "subModules":  [
+
+                                                                                  ]
+                                                               },
+                                                               {
+                                                                   "id":  "net.minecraft:client:1.20.1-20230612.114412:extra",
+                                                                   "name":  "Minecraft Forge (client extra)",
+                                                                   "type":  "Library",
+                                                                   "classpath":  false,
+                                                                   "artifact":  {
+                                                                                    "size":  10436626,
+                                                                                    "MD5":  "da6bb1a2c23108392fd6c103da40867c",
+                                                                                    "url":  "http://127.0.0.1:8080/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-extra.jar"
+                                                                                },
+                                                                   "subModules":  [
+
+                                                                                  ]
+                                                               },
+                                                               {
+                                                                   "id":  "cpw.mods:securejarhandler:2.1.10",
+                                                                   "name":  "Minecraft Forge (securejarhandler)",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  88749,
+                                                                                    "MD5":  "d9ff48d1c68388270388b803fa42611e",
+                                                                                    "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/repo/lib/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "org.ow2.asm:asm:9.9.1",
+                                                                   "name":  "Minecraft Forge (asm)",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  126252,
+                                                                                    "MD5":  "1888ad1f49038441bb2d12aa6dffe396",
+                                                                                    "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/repo/lib/org/ow2/asm/asm/9.9.1/asm-9.9.1.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "org.ow2.asm:asm-commons:9.9.1",
+                                                                   "name":  "Minecraft Forge (asm-commons)",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  75010,
+                                                                                    "MD5":  "7e0ef716c43d92d29e666f820df24e2c",
+                                                                                    "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/repo/lib/org/ow2/asm/asm-commons/9.9.1/asm-commons-9.9.1.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "org.ow2.asm:asm-tree:9.9.1",
+                                                                   "name":  "Minecraft Forge (asm-tree)",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  51963,
+                                                                                    "MD5":  "7eb17cd0d09b03fbe473e51edfc6e4d2",
+                                                                                    "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/repo/lib/org/ow2/asm/asm-tree/9.9.1/asm-tree-9.9.1.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "org.ow2.asm:asm-util:9.9.1",
+                                                                   "name":  "Minecraft Forge (asm-util)",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  94643,
+                                                                                    "MD5":  "fd4d359daf227302ab9cefd36476ca72",
+                                                                                    "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/repo/lib/org/ow2/asm/asm-util/9.9.1/asm-util-9.9.1.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "org.ow2.asm:asm-analysis:9.9.1",
+                                                                   "name":  "Minecraft Forge (asm-analysis)",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  35170,
+                                                                                    "MD5":  "68bd4a0266ad181cfca3f1603401ca68",
+                                                                                    "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/repo/lib/org/ow2/asm/asm-analysis/9.9.1/asm-analysis-9.9.1.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "net.minecraftforge:accesstransformers:8.0.4",
+                                                                   "name":  "Minecraft Forge (accesstransformers)",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  77756,
+                                                                                    "MD5":  "f0d3533f9437ba4428eaee9f28f7ecd9",
+                                                                                    "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "org.antlr:antlr4-runtime:4.9.1",
+                                                                   "name":  "Minecraft Forge (antlr4-runtime)",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  337868,
+                                                                                    "MD5":  "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                                                                                    "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "net.minecraftforge:eventbus:6.2.33",
+                                                                   "name":  "Minecraft Forge (eventbus)",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  64014,
+                                                                                    "MD5":  "0b419ea48f46de30ee4e6241e4fdf9d4",
+                                                                                    "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/repo/lib/net/minecraftforge/eventbus/6.2.33/eventbus-6.2.33.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "net.minecraftforge:forgespi:7.0.1",
+                                                                   "name":  "Minecraft Forge (forgespi)",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  29831,
+                                                                                    "MD5":  "bd34d20287dc95201fe9475a8bbc2540",
+                                                                                    "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/repo/lib/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "net.minecraftforge:coremods:5.2.4",
+                                                                   "name":  "Minecraft Forge (coremods)",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  31872,
+                                                                                    "MD5":  "5295505357ba9b98450c5e3121f82191",
+                                                                                    "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/repo/lib/net/minecraftforge/coremods/5.2.4/coremods-5.2.4.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "cpw.mods:modlauncher:10.0.9",
+                                                                   "name":  "Minecraft Forge (modlauncher)",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  130343,
+                                                                                    "MD5":  "07507d18d72661f8ae6a5da75bbf35be",
+                                                                                    "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/repo/lib/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "net.minecraftforge:unsafe:0.2.0",
+                                                                   "name":  "Minecraft Forge (unsafe)",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  2834,
+                                                                                    "MD5":  "2d1016ebe4c1a63dd50a59d26bd12db1",
+                                                                                    "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "net.minecraftforge:mergetool:1.1.5:api",
+                                                                   "name":  "Minecraft Forge (mergetool)",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  2572,
+                                                                                    "MD5":  "8df9c5bf87d004ddb884eca99bc2a4b1",
+                                                                                    "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/repo/lib/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "com.electronwill.night-config:core:3.6.4",
+                                                                   "name":  "Minecraft Forge (core)",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  199834,
+                                                                                    "MD5":  "d83ab07267e402131fb93d899a57f5cd",
+                                                                                    "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "com.electronwill.night-config:toml:3.6.4",
+                                                                   "name":  "Minecraft Forge (toml)",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  31816,
+                                                                                    "MD5":  "bc95d0709fff2164b01fd09fbc988be8",
+                                                                                    "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "org.apache.maven:maven-artifact:3.8.5",
+                                                                   "name":  "Minecraft Forge (maven-artifact)",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  58077,
+                                                                                    "MD5":  "ce473b0d9fbfd10fe147f03fe8707d67",
+                                                                                    "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "net.jodah:typetools:0.6.3",
+                                                                   "name":  "Minecraft Forge (typetools)",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  18281,
+                                                                                    "MD5":  "d4a375bf382f726cf1a650ccb38a736c",
+                                                                                    "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/repo/lib/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "net.minecrell:terminalconsoleappender:1.2.0",
+                                                                   "name":  "Minecraft Forge (terminalconsoleappender)",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  15977,
+                                                                                    "MD5":  "679363fa893293791e55a21f81342f87",
+                                                                                    "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "org.jline:jline-reader:3.12.1",
+                                                                   "name":  "Minecraft Forge (jline-reader)",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  150765,
+                                                                                    "MD5":  "a2e7b012cd9802f83321187409174a94",
+                                                                                    "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "org.jline:jline-terminal:3.12.1",
+                                                                   "name":  "Minecraft Forge (jline-terminal)",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  211712,
+                                                                                    "MD5":  "3c52be5ab5e3847be6e62269de924cb0",
+                                                                                    "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "org.spongepowered:mixin:0.8.5",
+                                                                   "name":  "Minecraft Forge (mixin)",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  1089277,
+                                                                                    "MD5":  "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                                                                                    "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "org.openjdk.nashorn:nashorn-core:15.4",
+                                                                   "name":  "Minecraft Forge (nashorn-core)",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  2167292,
+                                                                                    "MD5":  "a9b3360e6a486cf62c1952c7816b7d97",
+                                                                                    "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/repo/lib/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "net.minecraftforge:JarJarSelector:0.3.19",
+                                                                   "name":  "Minecraft Forge (JarJarSelector)",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  17374,
+                                                                                    "MD5":  "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
+                                                                                    "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "net.minecraftforge:JarJarMetadata:0.3.19",
+                                                                   "name":  "Minecraft Forge (JarJarMetadata)",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  15895,
+                                                                                    "MD5":  "9633546d299d4282ca68d10582be1c8f",
+                                                                                    "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "cpw.mods:bootstraplauncher:1.1.2",
+                                                                   "name":  "Minecraft Forge (bootstraplauncher)",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  8284,
+                                                                                    "MD5":  "48f5255aa337344c467c0150d347813d",
+                                                                                    "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "net.minecraftforge:JarJarFileSystems:0.3.19",
+                                                                   "name":  "Minecraft Forge (JarJarFileSystems)",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  32195,
+                                                                                    "MD5":  "c2be1a88b63eb1b58b00ab6e498cd97d",
+                                                                                    "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "net.minecraftforge:fmlloader:1.20.1-47.4.28",
+                                                                   "name":  "Minecraft Forge (fmlloader)",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  270955,
+                                                                                    "MD5":  "ed8c927a9604ea95fcd80e155fa09ceb",
+                                                                                    "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.4.28/fmlloader-1.20.1-47.4.28.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "net.minecraftforge:fmlearlydisplay:1.20.1-47.4.28",
+                                                                   "name":  "Minecraft Forge (fmlearlydisplay)",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  170512,
+                                                                                    "MD5":  "eb6c9b1a51fc133d55345ed72add8a02",
+                                                                                    "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.4.28/fmlearlydisplay-1.20.1-47.4.28.jar"
+                                                                                }
+                                                               }
+                                                           ]
+                                        },
+                                        {
+                                            "id":  "de.delinked:absoluteafkcinema:1.6.3@jar",
+                                            "name":  "Absolute AFK Cinema",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  8365886,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/absolute-afk-cinema-1.6.3-1.20.1-forge.jar",
+                                                             "MD5":  "393324acc3383b2157a54c615526abca"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "team.creative:ambientsounds:6.3.11@jar",
+                                            "name":  "AmbientSounds",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  53432741,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/AmbientSounds_FORGE_v6.3.11_mc1.20.1.jar",
+                                                             "MD5":  "353a17c5700655810861c10ce1a7e97b"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "squeek.appleskin:appleskin:2.5.1+mc1.20.1@jar",
+                                            "name":  "AppleSkin",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  47428,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/appleskin-forge-mc1.20.1-2.5.1.jar",
+                                                             "MD5":  "dae63cea9c951dda542a4005ceef3953"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "net.blay09.mods:balm:7.3.44@jar",
+                                            "name":  "Balm",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  561741,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/balm-forge-1.20.1-7.3.44.jar",
+                                                             "MD5":  "1f438ba183dbe403336c8bef9445ce31"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "net.darkhax:bookshelf:20.2.15@jar",
+                                            "name":  "Bookshelf",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  343925,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/Bookshelf-Forge-1.20.1-20.2.15.jar",
+                                                             "MD5":  "984cc53b314436f57e3bf72b8a1ba62b"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "mirsario.cameraoverhaul:cameraoverhaul:1.0.0@jar",
+                                            "name":  "Camera Overhaul",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  42107,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/cameraoverhaul-1.1-1.20.4.jar",
+                                                             "MD5":  "dddb535621990bdab2fe9a9accf6e7c9"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "mirsario.cameraoverhaul.entrypoints:cameraoverhaul:2.1.2-forge+mc.1.20-1.20.5@jar",
+                                            "name":  "CameraOverhaul",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  139791,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/CameraOverhaul-v2.1.2-forge+mc[1.20-1.20.5].jar",
+                                                             "MD5":  "b32ee41bb6aab3f6d4340594f05587dc"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "dzwdz.chat_heads:chat_heads:0.15.7@jar",
+                                            "name":  "Chat Heads",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  724902,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/chat_heads-0.15.7-forge-1.20.jar",
+                                                             "MD5":  "edf017b1081ed0fc16e6409b79b90db6"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "me.srrapero720:chloride:1.8.1@jar",
+                                            "name":  "Chloride",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  532833,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/chloride-FORGE-mc1.20.1-v1.8.1.jar",
+                                                             "MD5":  "23238aa4136a03fff53695e8e8dae1f4"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "com.koteinik:chunksfadein:3.0.25-1.20@jar",
+                                            "name":  "Chunks Fade In",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  599371,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/chunksfadein-forge-3.0.25-1.20.jar",
+                                                             "MD5":  "6b4b423b424453d9a32b80380f655f4c"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "net.gamev:cinematic_respawn:1.4.3@jar",
+                                            "name":  "Cinematic Respawn",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  39561,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/cinematic_respawn-1.20.1-forge-1.4.3.jar",
+                                                             "MD5":  "fa4d6b2477c4cfd2dd22e873cba2bf0e"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "dev.dyslexic:cinematic:0.18.30@jar",
+                                            "name":  "Cinematic Interactions",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  1314545,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/Cinematic%20Interaction-Forge-1.20.1-0.18.30.jar",
+                                                             "MD5":  "da3ed390744728ae3b0c18025c1c5823"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "me.shedaniel.clothconfig:cloth_config:11.1.136@jar",
+                                            "name":  "Cloth Config v10 API",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  1181413,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/cloth-config-11.1.136-forge.jar",
+                                                             "MD5":  "ca5de5acbcb4a30c010aa6953bd7ef53"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "com.mrcrayfish:configured:2.2.3@jar",
+                                            "name":  "Configured",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  418929,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/configured-forge-1.20.1-2.2.3.jar",
+                                                             "MD5":  "9380dc31c599c523a5682a4025fceb92"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "com.blamejared:controlling:12.0.2@jar",
+                                            "name":  "Controlling",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  115280,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/Controlling-forge-1.20.1-12.0.2.jar",
+                                                             "MD5":  "952274bc9994bba9733e8747558f73fa"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "com.corosus.coroutil.loader:coroutil:1.20.1-1.3.7@jar",
+                                            "name":  "CoroUtil",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  64187,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/coroutil-forge-1.20.1-1.3.7.jar",
+                                                             "MD5":  "6fb9ccbe8c05c1da61c224d1127e9643"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "net.blay09.mods:craftingtweaks:18.2.9@jar",
+                                            "name":  "CraftingTweaks",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  230696,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/craftingtweaks-forge-1.20.1-18.2.9.jar",
+                                                             "MD5":  "9d9de3a39fd928997f3d7d0c5b62d54f"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "team.creative:creativecore:2.12.40@jar",
+                                            "name":  "CreativeCore",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  1144290,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/CreativeCore_FORGE_v2.12.40_mc1.20.1.jar",
+                                                             "MD5":  "bcbe086d262cc16313b34121939bb61f"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "me.pieking1215.dripsounds:waterdripsound:0.5.2@jar",
+                                            "name":  "Drip Sounds",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  58959,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/Drip%20Sounds-0.5.2+1.20.4-Forge.jar",
+                                                             "MD5":  "ad888c3004073d830464f1b8158a5b92"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "net.lostluma.dynamic_fps.impl:dynamic_fps:3.11.4@jar",
+                                            "name":  "Dynamic FPS",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  402345,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/dynamic-fps-3.11.4+minecraft-1.20.0-forge.jar",
+                                                             "MD5":  "f8df69d0af455b6f47acb88ab747d1a3"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "io.github.catomon.easymobspawncontrol:easy_mob_spawn_control:1.6.2@jar",
+                                            "name":  "Easy Mob Spawn Control",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  594929,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/easy_mob_spawn_control-1.6.2.jar",
+                                                             "MD5":  "2446431f7178fada18434794cc7e2e8d"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "me.jellysquid.mods.sodium.client:embeddium:0.3.31+mc1.20.1@jar",
+                                            "name":  "Embeddium",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  1320675,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/embeddium-0.3.31+mc1.20.1.jar",
+                                                             "MD5":  "1dfb2ee49ce9ad5d484ff3eea0d628b7"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "team.creative:enhancedvisuals:1.8.34@jar",
+                                            "name":  "EnhancedVisuals",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  4728483,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/EnhancedVisuals_FORGE_v1.8.34_mc1.20.1.jar",
+                                                             "MD5":  "3d2b26e7f0f095ba6b409e308e53b358"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "traben.entity_model_features:entity_model_features:3.3.12@jar",
+                                            "name":  "Entity Model Features",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  840669,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/entity_model_features-3.3.12-1.20.1-forge.jar",
+                                                             "MD5":  "90ff1d598cd44db0a54697c9db30b582"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "traben.entity_texture_features:entity_texture_features:7.2.6@jar",
+                                            "name":  "Entity Texture Features",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  999570,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/entity_texture_features-7.2.6-1.20.1-forge.jar",
+                                                             "MD5":  "656c1aa1b7f5444ac4483222fbcd7bd9"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "dev.tr7zw:entityculling:1.11.3@jar",
+                                            "name":  "EntityCulling",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  1515076,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/entityculling-forge-1.11.3-mc1.20.1.jar",
+                                                             "MD5":  "cedd6c1c525e8ee36afd71f21aa7bc0b"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "de.cheaterpaul:fallingleaves:2.1.2@jar",
+                                            "name":  "Fallingleaves",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  124212,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/fallingleaves-1.20.1-2.1.2.jar",
+                                                             "MD5":  "721d92a83d7518e8515dbd499eda03cd"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "fr.rakambda:fallingtree:4.3.4@jar",
+                                            "name":  "FallingTree",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  420179,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/FallingTree-1.20.1-4.3.4.jar",
+                                                             "MD5":  "e9282de446320895a7835ce9efc6d3b7"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "de.keksuccino:fancymenu:3.9.14@jar",
+                                            "name":  "FancyMenu",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  26191988,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/fancymenu_forge_3.9.14_MC_1.20.1.jar",
+                                                             "MD5":  "4a27ef9d0e6b8cc9c32183cf843b99ef"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "com.github.x3r:fantasy_trees:1.2.0@jar",
+                                            "name":  "Fantasy Trees",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  2448557,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/fantasy_trees-1.2.0.jar",
+                                                             "MD5":  "55af5d17ec54be09ef6fffdc2650dc73"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "malte0811.ferritecore:ferritecore:6.0.1@jar",
+                                            "name":  "Ferrite Core",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  123034,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/ferritecore-6.0.1-forge.jar",
+                                                             "MD5":  "f52f538207a4829d7060550092ce2383"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "dev.tr7zw:firstperson:2.7.3@jar",
+                                            "name":  "FirstPerson",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  1726107,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/firstperson-forge-2.7.3-mc1.20.1.jar",
+                                                             "MD5":  "af8802f64930eac46c8af5e7cf04ba61"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "software.bernie.example:geckolib:4.8.4@jar",
+                                            "name":  "GeckoLib 4",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  1038209,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/geckolib-forge-1.20.1-4.8.4.jar",
+                                                             "MD5":  "83c73bcbf5778235569025ed968dc3ec"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "com.gpumemleakfix:gpumemleakfix:1.20.1-1.8@jar",
+                                            "name":  "Gpu memory leak fix",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  7997,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/gpumemleakfix-1.20.1-1.8.jar",
+                                                             "MD5":  "e5028e9da74761f26c00c546c8ebdc4d"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "com.anthonyhilyard:iceberg:1.1.25@jar",
+                                            "name":  "Iceberg",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  134551,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/Iceberg-1.20.1-forge-1.1.25.jar",
+                                                             "MD5":  "cda8af806d0de012f5c7012ea51c155f"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "net.raphimc:immediatelyfast:1.5.5+1.20.4@jar",
+                                            "name":  "ImmediatelyFast",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  532063,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/ImmediatelyFast-Forge-1.5.5+1.20.4.jar",
+                                                             "MD5":  "4d776686d7da62146099484b8c9e14af"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "net.blay09.mods:inventoryessentials:8.2.19@jar",
+                                            "name":  "Inventory Essentials",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  170028,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/inventoryessentials-forge-1.20.1-8.2.19.jar",
+                                                             "MD5":  "a0a8b52e7e21db4561991d1a8268b374"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "snownee.jade:jade:11.13.3+forge@jar",
+                                            "name":  "Jade",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  553487,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/Jade-1.20.1-Forge-11.13.3.jar",
+                                                             "MD5":  "a53aade6b5915ebe8357abb68cf1f778"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "snownee.jade.addon:jadeaddons:5.5.1+forge@jar",
+                                            "name":  "Jade Addons",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  91754,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/JadeAddons-1.20.1-Forge-5.5.1.jar",
+                                                             "MD5":  "b5f939a79e57f78a3ef0e6c1cfd6ea59"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "mezz.jei:jei:15.56.0.205@jar",
+                                            "name":  "Just Enough Items",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  1778129,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/jei-1.20.1-forge-15.56.0.205.jar",
+                                                             "MD5":  "44bb8a6e9634ca96bfab19e515db3318"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "de.keksuccino:justzoom:3.1.0@jar",
+                                            "name":  "Just Zoom",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  355850,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/justzoom_forge_3.1.0_MC_1.20.1.jar",
+                                                             "MD5":  "59027f2363737cf1215db657b367832c"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "de.keksuccino:konkrete:1.8.0@jar",
+                                            "name":  "Konkrete",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  625185,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+                                                             "MD5":  "d69107c593e361e1b7b96733250bd098"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "com.anthonyhilyard:legendarytooltips:1.4.5@jar",
+                                            "name":  "Legendary Tooltips",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  55258,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/LegendaryTooltips-1.20.1-forge-1.4.5.jar",
+                                                             "MD5":  "18c8e50bb98e24d86aa96a8b25dc6091"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "net.tschipcraft:make_bubbles_pop:${file.jarVersion}-forge@jar",
+                                            "name":  "Make Bubbles Pop",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  29475,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/make_bubbles_pop-0.3.0-forge-mc1.19.4-1.20.4.jar",
+                                                             "MD5":  "32de29da1929064d432acdfdb1dd0af3"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "de.keksuccino:melody:1.0.2@jar",
+                                            "name":  "Melody",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  37178,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+                                                             "MD5":  "6b528d368f7fcbf737df28f2457cdec6"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "net.mehvahdjukaar:modelfix:1.15@jar",
+                                            "name":  "Model Gap Fix",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  45246,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/modelfix-1.15.jar",
+                                                             "MD5":  "9afd060094be1353e818bd2b7c249cc9"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "org.embeddedt.modernfix.forge.init:modernfix:5.27.91+mc1.20.1@jar",
+                                            "name":  "ModernFix",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  1012942,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/modernfix-forge-5.27.91+mc1.20.1.jar",
+                                                             "MD5":  "b01fa4427f855cc157e043789262dcf6"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "forge.io.github.jason13official:more_useful_copper:3.0.0@jar",
+                                            "name":  "More Useful Copper",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  1782826,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/more_useful_copper-merged-1.20.1-3.0.0.jar",
+                                                             "MD5":  "2e638733abb7c988808e1e04eaa6c043"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "yalter.mousetweaks:mousetweaks:2.25.1@jar",
+                                            "name":  "Mouse Tweaks",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  76237,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+                                                             "MD5":  "ce4b5bbb9ef6a7905c458ab599ef4cb2"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "dev.imb11.loader:mru:1.0.4+1.20.1+forge@jar",
+                                            "name":  "Mineblock\u0027s Repeated Utilities",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  287393,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/MRU-1.0.4+1.20.1+forge.jar",
+                                                             "MD5":  "4485788a466877a0ddd42d3df84ea913"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "generated.forgemod:mr_no_morecopperore:1.0.1@jar",
+                                            "name":  "No More Copper Ore",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  11585,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/no-more-copper-ore-1.0.1.jar",
+                                                             "MD5":  "a8539b662f1f9cdd53782b83dd119439"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "dev.tr7zw:notenoughanimations:1.12.6@jar",
+                                            "name":  "NotEnoughAnimations",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  1870649,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/notenoughanimations-forge-1.12.6-mc1.20.1.jar",
+                                                             "MD5":  "4d0c5e4ce76b912713497458e1379aac"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "net.irisshaders.iris:oculus:1.8.0@jar",
+                                            "name":  "Oculus",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  2851119,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/oculus-mc1.20.1-1.8.0.jar",
+                                                             "MD5":  "1dd891634ac21591b5a692471f112572"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "me.kall:overlapless:1.20.1-1.2.0@jar",
+                                            "name":  "Overlapless",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  778907,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/overlapless-1.20.1-1.2.0.jar",
+                                                             "MD5":  "21fe7a8fb0aa1f62f94778fb57709850"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "pigcart.particlerain.loaders:particlerain:4.0.2@jar",
+                                            "name":  "Particle Rain",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  1257968,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/particlerain-4.0.2+1.20.1-forge.jar",
+                                                             "MD5":  "2583bd17a1022c5a82a8489a3a5bd9a1"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "fuzs.pickupnotifier:pickupnotifier:8.0.0@jar",
+                                            "name":  "Pick Up Notifier",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  102164,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/PickUpNotifier-v8.0.0-1.20.1-Forge.jar",
+                                                             "MD5":  "c1004011e796ef62010dcb03e9597cdc"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "dev.kosmx.playeranim:playeranimator:1.0.2-rc1+1.20@jar",
+                                            "name":  "Player Animator",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  181437,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/player-animation-lib-forge-1.0.2-rc1+1.20.jar",
+                                                             "MD5":  "46f8554181d4d240075ea4919d01fd01"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "eu.ha3:presencefootsteps:1.20.1-1.9.1-beta.1@jar",
+                                            "name":  "Presence Footsteps (Forge)",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  7080698,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/PresenceFootsteps-1.20.1-1.9.1-beta.1.jar",
+                                                             "MD5":  "e42d774ced61f8c62c58f3111aa5e3f5"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "com.anthonyhilyard:prism:1.0.5@jar",
+                                            "name":  "Prism",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  52205,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/Prism-1.20.1-forge-1.0.5.jar",
+                                                             "MD5":  "de0e319e29e813f407314b33739f7eb8"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "fuzs.puzzleslib.impl:puzzleslib:8.1.36@jar",
+                                            "name":  "Puzzles Lib",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  1790007,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/PuzzlesLib-v8.1.36-1.20.1-Forge.jar",
+                                                             "MD5":  "1f4c3135bc702e4c6e7e9b8ec2611ee7"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "com.quickskin.mod:quickskin:3.1.1@jar",
+                                            "name":  "Quick Skin",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  5489545,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/Quick%20Skin%20-%20Forge%20-%201.20.1-3.1.1.jar",
+                                                             "MD5":  "b567abb56ece0a2bcf18a428f394b5a9"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "com.xtracr:realcamera:0.7.8-beta@jar",
+                                            "name":  "Real Camera",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  280530,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/realcamera-1.20.1-forge-0.7.8-beta.jar",
+                                                             "MD5":  "a3ae6d4d970680c1d04c08f616aa3fd1"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "me.flashyreese.mods.sodiumextra:embeddium_extra:0.5.4.4+mc1.20.1-build.131@jar",
+                                            "name":  "Embeddium Extra",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  568608,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/rubidium-extra-0.5.4.4+mc1.20.1-build.131.jar",
+                                                             "MD5":  "a96fb0a07b75eb07b200e8f9c0dfb9f4"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "com.blamejared:searchables:1.0.3@jar",
+                                            "name":  "Searchables",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  77732,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/Searchables-forge-1.20.1-1.0.3.jar",
+                                                             "MD5":  "9f5418e9c08c18a375ef42fada4bcef2"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "toni.sodiumdynamiclights:sodiumdynamiclights:1.0.9@jar",
+                                            "name":  "Sodium Dynamic Lights",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  511601,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/sodiumdynamiclights-forge-1.0.10-1.20.1.jar",
+                                                             "MD5":  "687c18cefa558ca8101ef97914d9ba6b"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "toni.sodiumextras:sodiumextras:1.0.6@jar",
+                                            "name":  "Sodium Extras",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  438540,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/sodiumextras-forge-1.0.7-1.20.1.jar",
+                                                             "MD5":  "823adea3bcfd64dbdbaec46950cf4108"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "toni.sodiumoptionsapi:sodiumoptionsapi:1.0.10@jar",
+                                            "name":  "Sodium Options API",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  443978,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/sodiumoptionsapi-forge-1.0.10-1.20.1.jar",
+                                                             "MD5":  "75807590ae2648ecdeb855705868ce59"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "com.sonicether.soundphysics:sound_physics_remastered:1.20.1-1.5.1@jar",
+                                            "name":  "Sound Physics Remastered",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  206984,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/sound-physics-remastered-forge-1.20.1-1.5.1.jar",
+                                                             "MD5":  "d70031b5058fb81d2670a4039440b00f"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "dev.imb11.sounds.loaders:sounds:2.2.1+1.20.1+forge@jar",
+                                            "name":  "Sounds",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  10974911,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/Sounds-2.2.1+1.20.1+forge.jar",
+                                                             "MD5":  "ea8427a4988c1f5ad6b5ed7a38b8224d"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "generated.forgemod:stonycliffs:1.1.2@jar",
+                                            "name":  "Stony Cliffs Are Cool",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  43941,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/Stony%20Cliffs%20FML%20v1.1.2.jar",
+                                                             "MD5":  "71cd84ce2693aefd746e2544a8d7e8b1"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "terrablender.core:terrablender:3.0.1.10@jar",
+                                            "name":  "TerraBlender",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  107532,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/TerraBlender-forge-1.20.1-3.0.1.10.jar",
+                                                             "MD5":  "9d8e305b95ae5a8f7b446d6346324267"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "com.corosus.watut.loader:watut:1.20.1-1.2.3@jar",
+                                            "name":  "What Are They Up To",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  435496,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/watut-forge-1.20.1-1.2.3.jar",
+                                                             "MD5":  "345d3ecdf94dffaa0e3ba55538c65f80"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "dev.isxander.yacl3.platform:yet_another_config_lib_v3:3.6.6+1.20.1-forge@jar",
+                                            "name":  "YetAnotherConfigLib",
+                                            "type":  "ForgeMod",
+                                            "artifact":  {
+                                                             "size":  1105891,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/forgemods/required/yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar",
+                                                             "MD5":  "2437cb642e24726a83f864e345f24479"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "FA+Player-v1.1.zip",
+                                            "name":  "FA+Player-v1.1.zip",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  110203,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/files/resourcepacks/FA+Player-v1.1.zip",
+                                                             "MD5":  "8b7d38c1f46a1152e240cb91a95abf1a",
+                                                             "path":  "resourcepacks/FA+Player-v1.1.zip"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "FreshAnimations_v1.11.1_1.20+.zip",
+                                            "name":  "FreshAnimations_v1.11.1_1.20+.zip",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  743793,
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/files/resourcepacks/FreshAnimations_v1.11.1_1.20+.zip",
+                                                             "MD5":  "4223eb2ca4d333c4fd8448c1eb276ef5",
+                                                             "path":  "resourcepacks/FreshAnimations_v1.11.1_1.20+.zip"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "gatocraft.fancymenu:config/fancymenu/customizablemenus.txt",
+                                            "name":  "customizablemenus.txt",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  484,
+                                                             "MD5":  "52626a158701c20ab2578e49240229dd",
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/files/config/fancymenu/customizablemenus.txt",
+                                                             "path":  "config/fancymenu/customizablemenus.txt"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "gatocraft.fancymenu:config/fancymenu/custom_gui_screens.txt",
+                                            "name":  "custom_gui_screens.txt",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  51,
+                                                             "MD5":  "106e52948415f0879c53304f50783b28",
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/files/config/fancymenu/custom_gui_screens.txt",
+                                                             "path":  "config/fancymenu/custom_gui_screens.txt"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "gatocraft.fancymenu:config/fancymenu/legacy_checklist.txt",
+                                            "name":  "legacy_checklist.txt",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  42,
+                                                             "MD5":  "bc03e01c4f1bf1e24e9b86591baa512b",
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/files/config/fancymenu/legacy_checklist.txt",
+                                                             "path":  "config/fancymenu/legacy_checklist.txt"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "gatocraft.fancymenu:config/fancymenu/options.txt",
+                                            "name":  "options.txt",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  4401,
+                                                             "MD5":  "fb09f1e35703c37fef417b101a4e0b58",
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/files/config/fancymenu/options.txt",
+                                                             "path":  "config/fancymenu/options.txt"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "gatocraft.fancymenu:config/fancymenu/assets/a.png",
+                                            "name":  "a.png",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  230965,
+                                                             "MD5":  "2e3051f9b722567c0ea7be67cfec66ef",
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/files/config/fancymenu/assets/a.png",
+                                                             "path":  "config/fancymenu/assets/a.png"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "gatocraft.fancymenu:config/fancymenu/assets/aa.png",
+                                            "name":  "aa.png",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  153414,
+                                                             "MD5":  "9f153982410ace36f94784ebac8f90f7",
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/files/config/fancymenu/assets/aa.png",
+                                                             "path":  "config/fancymenu/assets/aa.png"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "gatocraft.fancymenu:config/fancymenu/assets/c.png",
+                                            "name":  "c.png",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  1503315,
+                                                             "MD5":  "d13a41182f782c7d768e56e76a803380",
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/files/config/fancymenu/assets/c.png",
+                                                             "path":  "config/fancymenu/assets/c.png"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "gatocraft.fancymenu:config/fancymenu/assets/cc.png",
+                                            "name":  "cc.png",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  1488130,
+                                                             "MD5":  "5626742e09e50727e5fc5f8b5155ca4c",
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/files/config/fancymenu/assets/cc.png",
+                                                             "path":  "config/fancymenu/assets/cc.png"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "gatocraft.fancymenu:config/fancymenu/assets/e.png",
+                                            "name":  "e.png",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  533015,
+                                                             "MD5":  "d05b5c0856413af38c0e7cb83af52b75",
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/files/config/fancymenu/assets/e.png",
+                                                             "path":  "config/fancymenu/assets/e.png"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "gatocraft.fancymenu:config/fancymenu/assets/ee.png",
+                                            "name":  "ee.png",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  533015,
+                                                             "MD5":  "d05b5c0856413af38c0e7cb83af52b75",
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/files/config/fancymenu/assets/ee.png",
+                                                             "path":  "config/fancymenu/assets/ee.png"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "gatocraft.fancymenu:config/fancymenu/assets/f.png",
+                                            "name":  "f.png",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  74030,
+                                                             "MD5":  "cf4fe5abd3a6792f435fb37325c43bf7",
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/files/config/fancymenu/assets/f.png",
+                                                             "path":  "config/fancymenu/assets/f.png"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "gatocraft.fancymenu:config/fancymenu/assets/ff.png",
+                                            "name":  "ff.png",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  57762,
+                                                             "MD5":  "772ef23e8495d610f15399bd1f64a093",
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/files/config/fancymenu/assets/ff.png",
+                                                             "path":  "config/fancymenu/assets/ff.png"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "gatocraft.fancymenu:config/fancymenu/assets/fondo.png",
+                                            "name":  "fondo.png",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  2796606,
+                                                             "MD5":  "71e2811c6a28f877615caf3a8f4559d2",
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/files/config/fancymenu/assets/fondo.png",
+                                                             "path":  "config/fancymenu/assets/fondo.png"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "gatocraft.fancymenu:config/fancymenu/assets/g.png",
+                                            "name":  "g.png",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  82242,
+                                                             "MD5":  "0a2ab583e70d2698393f80a3a20ce97b",
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/files/config/fancymenu/assets/g.png",
+                                                             "path":  "config/fancymenu/assets/g.png"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "gatocraft.fancymenu:config/fancymenu/assets/gg.png",
+                                            "name":  "gg.png",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  64746,
+                                                             "MD5":  "3bce7f755c4c3833f2e64eadbbbef8bc",
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/files/config/fancymenu/assets/gg.png",
+                                                             "path":  "config/fancymenu/assets/gg.png"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "gatocraft.fancymenu:config/fancymenu/assets/i.png",
+                                            "name":  "i.png",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  1726879,
+                                                             "MD5":  "c669123151adf5009d1a35cdb3807ace",
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/files/config/fancymenu/assets/i.png",
+                                                             "path":  "config/fancymenu/assets/i.png"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "gatocraft.fancymenu:config/fancymenu/assets/pop.mp3",
+                                            "name":  "pop.mp3",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  23040,
+                                                             "MD5":  "e58a3758003c23310dcdb99238ce1bdb",
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/files/config/fancymenu/assets/pop.mp3",
+                                                             "path":  "config/fancymenu/assets/pop.mp3"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "gatocraft.fancymenu:config/fancymenu/assets/pop.wav",
+                                            "name":  "pop.wav",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  138318,
+                                                             "MD5":  "c1ac69cbfa5b550b77f6d92e62c7a752",
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/files/config/fancymenu/assets/pop.wav",
+                                                             "path":  "config/fancymenu/assets/pop.wav"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "gatocraft.fancymenu:config/fancymenu/assets/r.png",
+                                            "name":  "r.png",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  86272,
+                                                             "MD5":  "c94864a9d0b67feb5c145f7af4c03ea5",
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/files/config/fancymenu/assets/r.png",
+                                                             "path":  "config/fancymenu/assets/r.png"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "gatocraft.fancymenu:config/fancymenu/assets/rr.png",
+                                            "name":  "rr.png",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  65958,
+                                                             "MD5":  "feaeaada6d96c24f4255577691e789dc",
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/files/config/fancymenu/assets/rr.png",
+                                                             "path":  "config/fancymenu/assets/rr.png"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "gatocraft.fancymenu:config/fancymenu/assets/s.png",
+                                            "name":  "s.png",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  219357,
+                                                             "MD5":  "4a1a5c8e563c1f4541e4425b566ff857",
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/files/config/fancymenu/assets/s.png",
+                                                             "path":  "config/fancymenu/assets/s.png"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "gatocraft.fancymenu:config/fancymenu/assets/ss.png",
+                                            "name":  "ss.png",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  145279,
+                                                             "MD5":  "9f741b3cc84a1080aa8a70467ca02403",
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/files/config/fancymenu/assets/ss.png",
+                                                             "path":  "config/fancymenu/assets/ss.png"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "gatocraft.fancymenu:config/fancymenu/customization/carga.txt",
+                                            "name":  "carga.txt",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  16115,
+                                                             "MD5":  "fe99f55dd3a95baf50b349c4ef555da7",
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/files/config/fancymenu/customization/carga.txt",
+                                                             "path":  "config/fancymenu/customization/carga.txt"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "gatocraft.fancymenu:config/fancymenu/customization/fondo.txt",
+                                            "name":  "fondo.txt",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  10507,
+                                                             "MD5":  "b02b76a19105e75c8cd6b2f648c0ea87",
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/files/config/fancymenu/customization/fondo.txt",
+                                                             "path":  "config/fancymenu/customization/fondo.txt"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "gatocraft.fancymenu:config/fancymenu/customization/jugador.txt",
+                                            "name":  "jugador.txt",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  48468,
+                                                             "MD5":  "90c742dcc6b980efab3ee2cbb24945ff",
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/files/config/fancymenu/customization/jugador.txt",
+                                                             "path":  "config/fancymenu/customization/jugador.txt"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "gatocraft.fancymenu:config/fancymenu/customization/menu.txt",
+                                            "name":  "menu.txt",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  71206,
+                                                             "MD5":  "bc23dff1308c805126992d0cec049fbf",
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/files/config/fancymenu/customization/menu.txt",
+                                                             "path":  "config/fancymenu/customization/menu.txt"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "gatocraft.fancymenu:config/fancymenu/customization/multijugador.txt",
+                                            "name":  "multijugador.txt",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  32081,
+                                                             "MD5":  "cf94b9b7b4951c3b7cbea515aa76fe0f",
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/files/config/fancymenu/customization/multijugador.txt",
+                                                             "path":  "config/fancymenu/customization/multijugador.txt"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "gatocraft.fancymenu:config/fancymenu/customization/opciones.txt",
+                                            "name":  "opciones.txt",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  45941,
+                                                             "MD5":  "f4a1276d7e7dbb64082cffe24d9a2b0e",
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/files/config/fancymenu/customization/opciones.txt",
+                                                             "path":  "config/fancymenu/customization/opciones.txt"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "gatocraft.fancymenu:config/fancymenu/layout_editor/widgets/element_layer_control.lewidget",
+                                            "name":  "element_layer_control.lewidget",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  198,
+                                                             "MD5":  "2218b6ec3f251917d94ff2e89a9481f9",
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/files/config/fancymenu/layout_editor/widgets/element_layer_control.lewidget",
+                                                             "path":  "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "gatocraft.fancymenu:config/fancymenu/ui_themes/cherry_blossom.json",
+                                            "name":  "cherry_blossom.json",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  9349,
+                                                             "MD5":  "90e358ee1c6bbd1d17bbcdad0a504f3d",
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/files/config/fancymenu/ui_themes/cherry_blossom.json",
+                                                             "path":  "config/fancymenu/ui_themes/cherry_blossom.json"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "gatocraft.fancymenu:config/fancymenu/ui_themes/cozy_campfire.json",
+                                            "name":  "cozy_campfire.json",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  9347,
+                                                             "MD5":  "02b0cd78a482dbd7ec793e123f4c007b",
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/files/config/fancymenu/ui_themes/cozy_campfire.json",
+                                                             "path":  "config/fancymenu/ui_themes/cozy_campfire.json"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "gatocraft.fancymenu:config/fancymenu/ui_themes/dark.json",
+                                            "name":  "dark.json",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  9329,
+                                                             "MD5":  "cbf30e731636c918d598f1ad9b0ea371",
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/files/config/fancymenu/ui_themes/dark.json",
+                                                             "path":  "config/fancymenu/ui_themes/dark.json"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "gatocraft.fancymenu:config/fancymenu/ui_themes/dark_high_contrast.json",
+                                            "name":  "dark_high_contrast.json",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  9359,
+                                                             "MD5":  "4b532a7a5c5ecd839e55a3c083c8bca3",
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/files/config/fancymenu/ui_themes/dark_high_contrast.json",
+                                                             "path":  "config/fancymenu/ui_themes/dark_high_contrast.json"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "gatocraft.fancymenu:config/fancymenu/ui_themes/light.json",
+                                            "name":  "light.json",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  9331,
+                                                             "MD5":  "f3980d6eed1064c36d794d7b1030fd06",
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/files/config/fancymenu/ui_themes/light.json",
+                                                             "path":  "config/fancymenu/ui_themes/light.json"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "gatocraft.fancymenu:config/fancymenu/ui_themes/light_high_contrast.json",
+                                            "name":  "light_high_contrast.json",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  9361,
+                                                             "MD5":  "700ff9cd0e95ac2234e0494af729226a",
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/files/config/fancymenu/ui_themes/light_high_contrast.json",
+                                                             "path":  "config/fancymenu/ui_themes/light_high_contrast.json"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "gatocraft.fancymenu:config/fancymenu/ui_themes/pumpkin_soup.json",
+                                            "name":  "pumpkin_soup.json",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  9345,
+                                                             "MD5":  "d322c4bde872420ddeb2eaa124d0f16a",
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/files/config/fancymenu/ui_themes/pumpkin_soup.json",
+                                                             "path":  "config/fancymenu/ui_themes/pumpkin_soup.json"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "gatocraft.fancymenu:config/fancymenu/ui_themes/purple_void.json",
+                                            "name":  "purple_void.json",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  9343,
+                                                             "MD5":  "79df3b7ab7a74d55e3f5bb70cd996dea",
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/files/config/fancymenu/ui_themes/purple_void.json",
+                                                             "path":  "config/fancymenu/ui_themes/purple_void.json"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "gatocraft.fancymenu:config/fancymenu/ui_themes/spooky_season.json",
+                                            "name":  "spooky_season.json",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  9347,
+                                                             "MD5":  "c45cc6e6bd9c4a296227e764dcf1e953",
+                                                             "url":  "https://raw.githubusercontent.com/arphymcvp-wq/Gatocraft-Distribution/refs/heads/main/servers/Gatocraft-1.20.1-1.20.1/files/config/fancymenu/ui_themes/spooky_season.json",
+                                                             "path":  "config/fancymenu/ui_themes/spooky_season.json"
+                                                         }
+                                        }
+                                    ]
+                    }
+                ]
+}

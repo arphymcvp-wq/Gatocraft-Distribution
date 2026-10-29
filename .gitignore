@@ -1,0 +1,5 @@
+﻿*.bak
+*.disabled
+user_variables.db
+inventario-publicacion.csv
+repo/lib/net/minecraft/client/

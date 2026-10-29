@@ -1,0 +1,17 @@
+
+{
+  "$schema": "file:///C:/Users/arphy/Documents/HeliosLauncher/GatocraftDistribution/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "Gatocraft",
+    "description": "Servidor oficial de Gatocraft | Minecraft 1.20.1",
+    "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
+    "address": "69.41.184.213:25566",
+    "mainServer": true,
+    "autoconnect": true
+  },
+  "forge": {
+    "version": "47.4.28"
+  },
+  "untrackedFiles": []
+}
